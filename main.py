@@ -3,7 +3,7 @@ import copy
 from mapa import crear_tablero, imprimir_tablero
 from obstaculos import agregar_obstaculos_usuario, modificar_celda
 from input_usuario import pedir_coordenadas
-from Aestrella import A_star, marcar_camino
+from aestrella import A_star, marcar_camino
 
 def generar_mapa_camino_limpio(mapa, camino):
     """Genera un mapa solo con el camino y el agua visible."""
